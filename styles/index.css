@@ -1,9 +1,46 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+nav {
+    /* background-color: green; */
+    border: 5em;
+    padding: 2%;
+}
+
 h1 {
-    font-size: 75px;
+    /* background-color: blue; */
+    padding: 2%;
+    font-size: 7vw;
     color: red;
 }
 
 h2 {
-    font-size: 50px;
+    /* background-color: coral; */
+    padding: 1%;
+    font-size: 5vw;
     color: blue;
+}
+
+p {
+    font-size: 3vw;
+    /* background-color: crimson; */
+    text-align: justify;
+    padding: 2px;
+    border: 5px;
+    margin: 10px;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 15%;
+}
+
+li {
+    /* background-color:cyan; */
+    text-align: left;
 }
