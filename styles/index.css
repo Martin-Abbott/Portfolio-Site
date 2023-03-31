@@ -1,37 +1,63 @@
-body {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+*{
+    /* display: flex;
+    flex-flow: column wrap; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     background-color: darkgrey;
 }
 
 nav {
-    /* background-color: green; */
-    border: 5em;
+    display: flex;
+    /* flex-grow: 1; */
+    justify-content: space-around;
+    /* border: 0.5vw solid grey; */
+    /* border-radius: 2em; */
+    /* padding: 1em; */
+    /* background-color: grey; */
+    /* overflow: hidden; */
+    /* position: fixed; */
+    width: 100%;
+}
+
+.nav-button {
+    flex-basis: 25%;
+    border: 1vw solid gray;
+    border-radius: 2em;
     padding: 2%;
+    font-size: 3vw;
 }
 
 h1 {
-    /* background-color: blue; */
+    /* background-color: grey; */
+    border: 1.5vw solid gray;
+    border-radius: 2em;
+    margin: 2px;
     padding: 2%;
-    font-size: 7vw;
-    color: red;
+    font-size: 6vw;
+    /* color: darkgrey; */
 }
 
 h2 {
-    /* background-color: coral; */
+    /* background-color: gray; */
+    margin: 2px;
     padding: 1%;
     font-size: 5vw;
-    color: blue;
+    border: 1.5vw solid gray;
+    border-radius: 2em;
+    /* color: darkgrey; */
 }
 
 p {
-    font-size: 3vw;
+    font-size: 2.5vw;
     /* background-color: crimson; */
-    text-align: justify;
-    padding: 2px;
+    text-align: center;
+    padding: 3px;
     border: 5px;
     margin: 10px;
+    max-width: 95%;
 }
 
 img {
@@ -46,4 +72,31 @@ li {
     /* background-color:cyan; */
     text-align: center;
     font-size: 3vw;
+    padding: 0.25em;
+}
+
+form {
+    border: 1.5vw solid gray;
+    border-radius: 3em;
+    margin: 2px;
+    padding: 2%;
+}
+
+.input-box {
+    flex-basis: 25%;
+    border: 1vw solid gray;
+    border-radius: 2em;
+    padding: 2%;
+    background-color: white;
+    width: 50vw;
+}
+
+footer {
+    /* background-color: grey; */
+    border: 1.5vw solid gray;
+    border-radius: 2em;
+    margin: 2px;
+    padding: 2%;
+    font-size: 3vw;
+    /* color: darkgrey; */
 }
